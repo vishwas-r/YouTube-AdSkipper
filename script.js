@@ -2,7 +2,7 @@
   "name": "YouTube AdSkipper",
   "short_name": "YouTube AdSkipper",
   "description": "Skip YouTube ads automatically as soon as YouTube provides a skip button.",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Vishwas R",
 */
 (function(){function e(a){if(a.fireEvent)a.fireEvent("onclick");else{var b=document.createEvent("Events");b.initEvent("click",!0,!1);a.dispatchEvent(b)}}function g(){clearTimeout(f);m()||(f=setTimeout(function(){h();g()},2E3))}function n(a){return a.map(function(b){return Array.from(document.getElementsByClassName(b))||[]}).reduce(function(b,c){return b.concat(c)},[])}function p(a){var b=null,c,k=function(){for(var d=a;null!==d;){if("none"===d.style.display)return d;d=d.parentElement}return null}();

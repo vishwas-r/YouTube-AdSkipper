@@ -1,5 +1,11 @@
 (function () {
-  var timerId;
+  var timerId,
+	  classList = [
+		"ytp-ad-skip-button-text", // Video Ad; "Skip Ad" or "Skip Ads" button
+		"videoAdUiSkipButton", // Video Ad
+		"ytp-ad-skip-button ytp-button", // Video Ad; "Skip Ad" or "Skip Ads" button
+		"ytp-ad-overlay-close-button", // Banner Ad; "X" button
+	  ];
   var isInIframe = (function() {
     try {
       return (window.self !== window.top);
