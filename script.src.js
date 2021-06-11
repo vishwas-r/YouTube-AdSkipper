@@ -1,7 +1,7 @@
 (function () {
   var timerId,
-	  classList = [
-		"ytp-ad-skip-button-text", // Video Ad; "Skip Ad" or "Skip Ads" button
+	  adsClassList = [
+		"ytp-ad-text ytp-ad-skip-button-text",// Video Ad; "Skip Ad" or "Skip Ads" button
 		"videoAdUiSkipButton", // Video Ad
 		"ytp-ad-skip-button ytp-button", // Video Ad; "Skip Ad" or "Skip Ads" button
 		"ytp-ad-overlay-close-button", // Banner Ad; "X" button
@@ -93,7 +93,7 @@
   }
 
   function checkAndClickButtons() {
-    existingButtons(classList).forEach(button => {
+    existingButtons(adsClassList).forEach(button => {
       if (!isElementVisible(button)) {
         simulateClickOnVisible(button);        
         return;
