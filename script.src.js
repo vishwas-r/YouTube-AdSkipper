@@ -77,7 +77,7 @@
     }
 
     if (!skipButtonDomTreeObserver) {
-      skipButtonDomTreeObserver = new MutationdomTreeObserver(function() {
+      skipButtonDomTreeObserver = new MutationObserver(function() {
         if (!isElementVisible(skipButton)) {
           return;
         }
@@ -104,7 +104,7 @@
   }
   
   function initDomTreeObserver() {
-    if (!('MutationdomTreeObserver' in window)) {
+    if (!('MutationObserver' in window)) {
       return false;
     }
 
@@ -116,7 +116,7 @@
       return false;
     }
 
-    var domTreeObserver = new MutationdomTreeObserver(function() {
+    var domTreeObserver = new MutationObserver(function() {
       checkAndClickButtons();
     });
 
