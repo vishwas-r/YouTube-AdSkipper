@@ -4,4 +4,4 @@ Light-Weight Firefox addon to skip YouTube ads automatically. This is not ad-blo
 
 Download Firefox Addon: https://addons.mozilla.org/en-US/firefox/addon/youtube-adskipper/
 
-<a href="https://www.buymeacoffee.com/vishwas" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="BuyMeACoffee" width="200"/></a>
+<a href="https://www.buymeacoffee.com/vishwas.r" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="BuyMeACoffee" width="200"/></a>
